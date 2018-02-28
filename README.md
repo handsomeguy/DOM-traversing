@@ -16,4 +16,6 @@ you can just use script element to put in your code
 ### example 
 window.traverse(document.body)
 
+window.traverse(document.getElementById('test'));
+
 ### thanks
