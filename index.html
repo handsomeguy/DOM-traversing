@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>traversing</title>
+</head>
+<body>
+
+	<div class="test haha nihao" id='xixi'> 
+		some text
+	</div>
+	<span class="test">
+		some text
+	</span>
+	<p class="test">
+		some text
+	</p>
+	<p class="test">
+		some text
+	</p>
+
+
+</body>
+<script type="text/javascript" src='./traverse.js'></script>
+<script type="text/javascript">
+	window.onload = function () {
+
+		// test code 
+		// ================================
+		// let a = window.traverse(document.body,'p');
+		// console.log(a);
+		// window.traverse(document.body,'span');
+
+		// new function
+		window.traverse(document.body,'.test',function (dom) {
+			// access data which is selected from parent node
+			console.log(dom)
+		})
+	}
+</script>
+</html>
