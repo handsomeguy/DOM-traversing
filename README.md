@@ -38,3 +38,5 @@ window.traverse(document.body,'.test',function (dom) {
 fix后的版本，避免了闭包共享的问题，其次增加了标签和类名查找功能，允许传入回调函数进行额外的DOM节点处理
 
 ### thanks
+
+谢谢大家的支持和鼓励！
